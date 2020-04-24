@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0bd4b2b-c22c-4f87-b9e6-f3aacca2d472" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../week2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../week3">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/../week2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../week3">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aMNQEaITAnImmcg2Q11iSCqmun" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Kotlin._002_DeferKt">
+    <configuration name="_001_CreateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="week3.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_001_CreateKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_002_DeferKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="week3.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_002_DeferKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_007_BehaviorSubjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="week2.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_007_BehaviorSubjectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_008_ReplaySubjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="week2.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_008_ReplaySubjectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_009_AsyncSubjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="week2.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_009_AsyncSubjectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin._002_DeferKt" />
+        <item itemvalue="Kotlin._001_CreateKt" />
+        <item itemvalue="Kotlin._009_AsyncSubjectKt" />
+        <item itemvalue="Kotlin._008_ReplaySubjectKt" />
+        <item itemvalue="Kotlin._007_BehaviorSubjectKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0bd4b2b-c22c-4f87-b9e6-f3aacca2d472" name="Default Changelist" comment="" />
+      <created>1586541484795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586541484795</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="130" key="#Project_Structure" timestamp="1587131764933">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="130" key="#Project_Structure/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587131764933" />
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587131868804">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587131868804" />
+    <state x="814" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1587146163898">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="814" y="272" key="#com.intellij.ide.util.MemberChooser/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587146163898" />
+    <state x="765" y="252" key="FileChooserDialogImpl" timestamp="1587595136374">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="765" y="252" key="FileChooserDialogImpl/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587595136374" />
+    <state width="979" height="299" key="GridCell.Tab.0.bottom" timestamp="1587743238205">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="979" height="299" key="GridCell.Tab.0.bottom/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587743238205" />
+    <state width="979" height="299" key="GridCell.Tab.0.center" timestamp="1587743238205">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="979" height="299" key="GridCell.Tab.0.center/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587743238205" />
+    <state width="979" height="299" key="GridCell.Tab.0.left" timestamp="1587743238205">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="979" height="299" key="GridCell.Tab.0.left/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587743238205" />
+    <state width="979" height="299" key="GridCell.Tab.0.right" timestamp="1587743238205">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="979" height="299" key="GridCell.Tab.0.right/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587743238205" />
+    <state x="494" y="142" key="SettingsEditor" timestamp="1587741393162">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="494" y="142" key="SettingsEditor/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587741393162" />
+    <state x="396" y="97" key="new project wizard" timestamp="1587741386305">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="396" y="97" key="new project wizard/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587741386305" />
+    <state x="1193" y="262" key="run.anything.popup" timestamp="1587741600379">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1193" y="262" key="run.anything.popup/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1587741600379" />
+  </component>
+</project>
