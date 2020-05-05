@@ -35,10 +35,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/week2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\chul\rxjava\src\main\kotlin\week2" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,22 +64,38 @@
       <option name="project" value="LOCAL" />
       <updated>1588700458135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2주차 폴더 생성">
+      <created>1588700706781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588700706781</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2주차 복습">
+      <created>1588700734863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588700734863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1주차 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="1주차 복습" />
+    <MESSAGE value="2주차 폴더 생성" />
+    <MESSAGE value="2주차 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="2주차 복습" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="130" key="#Project_Structure" timestamp="1588699025481">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1010" y="130" key="#Project_Structure/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1588699025481" />
-    <state x="766" y="130" key="CommitChangelistDialog2" timestamp="1588700457695">
+    <state x="766" y="130" key="CommitChangelistDialog2" timestamp="1588700734444">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="766" y="130" key="CommitChangelistDialog2/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1588700457695" />
+    <state x="766" y="130" key="CommitChangelistDialog2/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1588700734444" />
     <state x="1010" y="200" key="SettingsEditor" timestamp="1588699132968">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
