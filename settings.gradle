@@ -1,1 +1,4 @@
-rootProject.name = 'week1'
+rootProject.name = 'rxjava'
+include 'week1'
+include 'week1'
+
