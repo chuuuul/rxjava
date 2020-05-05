@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="594f8303-293b-4f98-8a92-17437639963b" name="Default Changelist" comment="프로젝트 정리">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="594f8303-293b-4f98-8a92-17437639963b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,13 +51,29 @@
       <option name="presentableId" value="Default" />
       <updated>1588698998160</updated>
     </task>
+    <task id="LOCAL-00001" summary="1주차 복습">
+      <created>1588700458135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588700458135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1주차 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="1주차 복습" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="130" key="#Project_Structure" timestamp="1588699025481">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1010" y="130" key="#Project_Structure/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1588699025481" />
+    <state x="766" y="130" key="CommitChangelistDialog2" timestamp="1588700457695">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="766" y="130" key="CommitChangelistDialog2/2560.81.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1588700457695" />
     <state x="1010" y="200" key="SettingsEditor" timestamp="1588699132968">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
