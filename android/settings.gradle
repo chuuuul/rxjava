@@ -1,0 +1,2 @@
+rootProject.name='Rx_In_Android'
+include ':app'
