@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BehaviorSubjectActivity"></activity>
-        <activity android:name=".CombineLasted" />
+        <activity android:name=".CombineLastest" />
         <activity android:name=".BufferActivity" />
         <activity android:name=".ThrottleActivity" />
         <activity android:name=".DebounceActivity" />

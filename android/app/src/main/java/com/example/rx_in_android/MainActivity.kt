@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, BufferActivity::class.java))
         }
         btn_combineLasted.setOnClickListener {
-            startActivity(Intent(this, CombineLasted::class.java))
+            startActivity(Intent(this, CombineLastest::class.java))
         }
         btn_behaviorSubject.setOnClickListener {
             startActivity(Intent(this, BehaviorSubjectActivity::class.java))
