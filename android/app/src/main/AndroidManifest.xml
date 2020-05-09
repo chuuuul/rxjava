@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BehaviorSubjectActivity"></activity>
+        <activity android:name=".CombineLastest" />
+        <activity android:name=".BufferActivity" />
+        <activity android:name=".ThrottleActivity" />
+        <activity android:name=".DebounceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
