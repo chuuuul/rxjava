@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BehaviorSubjectActivity"></activity>
+        <activity android:name=".rx_bus.SenderActivity"></activity>
+        <activity android:name=".rx_bus.BehaviorSubjectActivity" />
         <activity android:name=".CombineLastest" />
         <activity android:name=".BufferActivity" />
         <activity android:name=".ThrottleActivity" />
