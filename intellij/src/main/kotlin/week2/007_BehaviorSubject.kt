@@ -7,6 +7,7 @@ fun main() {
      */
     val behaviorSubject = BehaviorSubject.create<Int>()
 
+    behaviorSubject.onNext(0)
     behaviorSubject.subscribe { println("A : $it") }
     behaviorSubject.onNext(1)
     behaviorSubject.subscribe { println("B : $it") }
@@ -18,8 +19,6 @@ fun main() {
     println("---------------------")
 
     behaviorSubject.onNext(4)
-    behaviorSubject.onNext(5)
-    behaviorSubject.onNext(6)
 
 
 }
