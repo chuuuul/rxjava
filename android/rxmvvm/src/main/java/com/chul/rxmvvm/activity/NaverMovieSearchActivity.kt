@@ -1,9 +1,8 @@
 package com.chul.rxmvvm.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.chul.rxmvvm.R
 import com.jakewharton.rxbinding2.view.RxView
@@ -19,60 +18,61 @@ import java.util.concurrent.TimeUnit
 class NaverMovieSearchActivity : AppCompatActivity(R.layout.activity_naver_movie_search) {
 
     private val compositeDisposable = CompositeDisposable()
-
     private val adapter = NaverMovieSearchAdapter()
-    private val vm by lazy {
-        NaverMovieSearchViewModel()
-    }
-
+    private val viewModel = NaverMovieSearchViewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         initView()
-        btn_search.setOnClickListener {
-            vm.searchMovie(et_input.text.toString())
-
-        }
     }
 
-    private fun bindViewModel() {
-        val textChange = RxTextView.textChangeEvents(et_input)
-            .debounce(2000L, TimeUnit.MILLISECONDS, Schedulers.computation())
-            .map { it.text().toString() }
-
-        val searchClick = RxView.clicks(btn_search)
-            .map { et_input.text.toString() }
-
-        listOf(textChange, searchClick)
-            .merge()
-            .throttleFirst(500L, TimeUnit.MILLISECONDS)
-            .filter(String::isNotBlank)
-            .subscribe(vm::searchMovie)
-            .addTo(compositeDisposable)
-
-        vm.errorSubject
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                    this::showError
-            ).addTo(compositeDisposable)
-
-        vm.loadingSubject
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe { pb_loading.isVisible = it }
-            .addTo(compositeDisposable)
-
-        vm.movieSubject
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                adapter::resetAll
-            ).addTo(compositeDisposable)
-
+    private fun initView() {
+        rv_content.adapter = adapter
     }
 
     override fun onResume() {
         super.onResume()
         bindViewModel()
+    }
+
+    private fun bindViewModel() {
+
+        val changeKeyword = RxTextView.textChanges(et_input)
+            .subscribeOn(AndroidSchedulers.mainThread())
+            .map { it.toString() }
+            .debounce(1000L, TimeUnit.MILLISECONDS, Schedulers.computation())
+
+
+        val searchClick = RxView.clicks(btn_search)
+            .map { et_input.text.toString() }
+
+
+        listOf(searchClick, changeKeyword)
+            .merge()
+            .throttleFirst(1000L, TimeUnit.MILLISECONDS)
+            .filter(String::isNotBlank)
+            .subscribe(viewModel::searchMovie)
+            .addTo(compositeDisposable)
+
+        viewModel.errorSubject
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(::showErrorToast)
+            .addTo(compositeDisposable)
+
+        viewModel.loadingSubject
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe { pb_loading.isVisible = it }
+            .addTo(compositeDisposable)
+
+        viewModel.movieSubject
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(adapter::resetAll)
+            .addTo(compositeDisposable)
+    }
+
+    private fun showErrorToast(throwable: Throwable) {
+        Toast.makeText(this, throwable.message, Toast.LENGTH_SHORT).show()
     }
 
     override fun onPause() {
@@ -82,16 +82,7 @@ class NaverMovieSearchActivity : AppCompatActivity(R.layout.activity_naver_movie
 
     private fun unbindViewModel() {
         compositeDisposable.clear()
-        vm.unBindViewModel()
-    }
-
-    private fun showError(throwable: Throwable) {
-        Toast.makeText(this, throwable.message, Toast.LENGTH_SHORT).show()
-    }
-
-
-    private fun initView() {
-        rv_content.adapter = adapter
+        viewModel.unbindViewModel()
     }
 
 
