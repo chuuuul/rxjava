@@ -12,10 +12,13 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.merge
 import io.reactivex.schedulers.Schedulers
+import io.reactivex.subjects.BehaviorSubject
 import kotlinx.android.synthetic.main.activity_naver_movie_search.*
 import java.util.concurrent.TimeUnit
 
 class NaverMovieSearchActivity : AppCompatActivity(R.layout.activity_naver_movie_search) {
+
+    private val backPressSubject = BehaviorSubject.createDefault(0L)
 
     private val compositeDisposable = CompositeDisposable()
     private val adapter = NaverMovieSearchAdapter()
@@ -25,6 +28,19 @@ class NaverMovieSearchActivity : AppCompatActivity(R.layout.activity_naver_movie
         super.onCreate(savedInstanceState)
 
         initView()
+        onClickBackKey()
+    }
+
+    private fun onClickBackKey() {
+        backPressSubject.subscribeOn(AndroidSchedulers.mainThread())
+            .buffer(2, 1)
+            .subscribe {
+                if (it[1] - it[0] < 1500L) {
+                    super.onBackPressed()
+                } else {
+                    Toast.makeText(this, "종료하려면 한번 더 누르세요", Toast.LENGTH_SHORT).show()
+                }
+            }.addTo(compositeDisposable)
     }
 
     private fun initView() {
@@ -85,5 +101,8 @@ class NaverMovieSearchActivity : AppCompatActivity(R.layout.activity_naver_movie
         viewModel.unbindViewModel()
     }
 
+    override fun onBackPressed() {
+        backPressSubject.onNext(System.currentTimeMillis())
+    }
 
 }
